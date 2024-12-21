@@ -8,7 +8,7 @@ API_TOKEN = '7473985857:AAEJFV9yKnuxWi69uW66pzpEut-2YItyOmM'
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     # WebApp-Button und andere Buttons definieren
     keyboard = [
-        [InlineKeyboardButton("WebApp öffnen", web_app=InlineKeyboardMarkup.WebAppInfo(url="https://dein-username.github.io/index.html"))],
+        [InlineKeyboardButton("WebApp öffnen", web_app=InlineKeyboardMarkup.WebAppInfo(url="https://cheiquu.github.io/Shinyflakes/"))],
         [InlineKeyboardButton("Punkte anzeigen", callback_data='points')],
         [InlineKeyboardButton("Über PAWS", callback_data='about')]
     ]
